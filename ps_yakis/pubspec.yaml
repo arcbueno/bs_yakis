@@ -42,18 +42,107 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/images/yakizinho_transparent.png
     - lib/images/Frente/F1.jpg
     - lib/images/Frente/F2.jpg
     - lib/images/Frente/F3.jpg
     - lib/images/Frente/F4.jpg
     - lib/images/Frente/F5.jpg
     - lib/images/Frente/F6.jpg
+    - lib/images/Frente/F7.jpg
+    - lib/images/Frente/F8.jpg
+    - lib/images/Frente/F9.jpg
+    - lib/images/Frente/F10.jpg
+    - lib/images/Frente/F11.jpg
+    - lib/images/Frente/F12.jpg
+    - lib/images/Frente/F13.jpg
+    - lib/images/Frente/F14.jpg
+    - lib/images/Frente/F15.jpg
+    - lib/images/Frente/F16.jpg
+    - lib/images/Frente/F17.jpg
+    - lib/images/Frente/F18.jpg
+    - lib/images/Frente/F19.jpg
+    - lib/images/Frente/F20.jpg
+    - lib/images/Frente/F21.jpg
+    - lib/images/Frente/F22.jpg
+    - lib/images/Frente/F23.jpg
+    - lib/images/Frente/F24.jpg
+    - lib/images/Frente/F25.jpg
+    - lib/images/Frente/F26.jpg
+    - lib/images/Frente/F27.jpg
+    - lib/images/Frente/F28.jpg
+    - lib/images/Frente/F29.jpg
+    - lib/images/Frente/F30.jpg
+    - lib/images/Frente/F31.jpg
+    - lib/images/Frente/F32.jpg
+    - lib/images/Frente/F33.jpg
+    - lib/images/Frente/F34.jpg
+    - lib/images/Frente/F35.jpg
+    - lib/images/Frente/F36.jpg
+    - lib/images/Frente/F37.jpg
+    - lib/images/Frente/F38.jpg
+    - lib/images/Frente/F39.jpg
+    - lib/images/Frente/F40.jpg
+    - lib/images/Frente/F41.jpg
+    - lib/images/Frente/F42.jpg
+    - lib/images/Frente/F43.jpg
+    - lib/images/Frente/F44.jpg
+    - lib/images/Frente/F45.jpg
+    - lib/images/Frente/F46.jpg
+    - lib/images/Frente/F47.jpg
+    - lib/images/Frente/F48.jpg
+    - lib/images/Frente/F49.jpg
+    - lib/images/Frente/F50.jpg
     - lib/images/Verso/V1.jpg
     - lib/images/Verso/V2.jpg
     - lib/images/Verso/V3.jpg
     - lib/images/Verso/V4.jpg
     - lib/images/Verso/V5.jpg
     - lib/images/Verso/V6.jpg
+    - lib/images/Verso/V7.jpg
+    - lib/images/Verso/V8.jpg
+    - lib/images/Verso/V9.jpg
+    - lib/images/Verso/V10.jpg
+    - lib/images/Verso/V11.jpg
+    - lib/images/Verso/V12.jpg
+    - lib/images/Verso/V13.jpg
+    - lib/images/Verso/V14.jpg
+    - lib/images/Verso/V15.jpg
+    - lib/images/Verso/V16.jpg
+    - lib/images/Verso/V17.jpg
+    - lib/images/Verso/V18.jpg
+    - lib/images/Verso/V19.jpg
+    - lib/images/Verso/V20.jpg
+    - lib/images/Verso/V21.jpg
+    - lib/images/Verso/V22.jpg
+    - lib/images/Verso/V23.jpg
+    - lib/images/Verso/V24.jpg
+    - lib/images/Verso/V25.jpg
+    - lib/images/Verso/V26.jpg
+    - lib/images/Verso/V27.jpg
+    - lib/images/Verso/V28.jpg
+    - lib/images/Verso/V29.jpg
+    - lib/images/Verso/V30.jpg
+    - lib/images/Verso/V31.jpg
+    - lib/images/Verso/V32.jpg
+    - lib/images/Verso/V33.jpg
+    - lib/images/Verso/V34.jpg
+    - lib/images/Verso/V35.jpg
+    - lib/images/Verso/V36.jpg
+    - lib/images/Verso/V37.jpg
+    - lib/images/Verso/V38.jpg
+    - lib/images/Verso/V39.jpg
+    - lib/images/Verso/V40.jpg
+    - lib/images/Verso/V41.jpg
+    - lib/images/Verso/V42.jpg
+    - lib/images/Verso/V43.jpg
+    - lib/images/Verso/V44.jpg
+    - lib/images/Verso/V45.jpg
+    - lib/images/Verso/V46.jpg
+    - lib/images/Verso/V47.jpg
+    - lib/images/Verso/V48.jpg
+    - lib/images/Verso/V49.jpg
+    - lib/images/Verso/V50.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
   # For details regarding adding assets from package dependencies, see

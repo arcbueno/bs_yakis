@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:ps_yakis/listAssets.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,25 +30,10 @@ class _MyHomePageState extends State<MyHomePage> {
   String directory;
   String imagemMostrada;
   bool frenteExposta = true;
-  int randomNumber = 1;
+  int randomNumber = 0;
 
-  List<String> pathsFrente = [
-    'lib/images/Frente/F1.jpg',
-    'lib/images/Frente/F2.jpg',
-    'lib/images/Frente/F3.jpg',
-    'lib/images/Frente/F4.jpg',
-    'lib/images/Frente/F5.jpg',
-    'lib/images/Frente/F6.jpg',
-  ];
-
-  List<String> pathsVerso = [
-    'lib/images/Verso/V1.jpg',
-    'lib/images/Verso/V2.jpg',
-    'lib/images/Verso/V3.jpg',
-    'lib/images/Verso/V4.jpg',
-    'lib/images/Verso/V5.jpg',
-    'lib/images/Verso/V6.jpg',
-  ];
+  var pathsVerso = AssetsList.pathsVerso;
+  var pathsFrente = AssetsList.pathsFrente;
 
   _mudarImagem(int randomNumber) {
     if (frenteExposta) {
@@ -63,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   _gerarNovaImagem() {
     var rng = new Random();
-    randomNumber = rng.nextInt(5); // Selecionando o número randomico
+    randomNumber = rng.nextInt(50); // Selecionando o número randomico
     print(randomNumber);
 
     imagemMostrada = pathsFrente[randomNumber];
@@ -95,15 +81,23 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          print('gerando nova imagem');
-          _gerarNovaImagem();
-        },
-        tooltip: 'Gerar nova estória',
-        child: Icon(
-          Icons.compare_arrows,
-          size: 50,
+      floatingActionButton: Container(
+        height: 70,
+        width: 70,
+        child: FittedBox(
+          child: FloatingActionButton(
+            onPressed: () {
+              print('gerando nova imagem');
+              _gerarNovaImagem();
+            },
+            tooltip: 'Gerar nova estória',
+            backgroundColor: Colors.transparent,
+            child: CircleAvatar(
+              radius: 50,
+              backgroundColor: Colors.transparent,
+              child: Image.asset('lib/images/yakizinho_transparent.png'),
+            ),
+          ),
         ),
       ),
     );
